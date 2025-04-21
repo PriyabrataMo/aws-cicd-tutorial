@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -18,12 +19,12 @@ export default function Home() {
           </p>
           <div className="mt-8 flex justify-center">
             <div className="rounded-md shadow">
-              <a
-                href="#blog"
+              <Link
+                href="/get-started"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
               >
                 Read the Blog
-              </a>
+              </Link>
             </div>
           </div>
         </div>
